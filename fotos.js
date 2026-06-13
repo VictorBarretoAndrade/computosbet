@@ -6,9 +6,13 @@ const FOTOS = [
     "GORGIS.png",
     "GRADIN.png",
     "HECTOR.png",
+    "LETI DA MATA.png",
     "MIMI.png",
     "PEPU.png",
+    "PUTERSON.png",
     "SANVAL.jpg",
-    "TIGRE.avif"
+    "SOUSSA.png",
+    "TIGRE.avif",
+    "TUTU.png"
 ];
 
