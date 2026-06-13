@@ -29,9 +29,9 @@ const PALPITES = {
   "SANVAL":   { palpite: "Brasil 0 x 3 Marrocos", valor: "O curso de Computação do SENAI 🎓" },
   "HECTOR":   { palpite: "Brasil 1 x 1 Marrocos", valor: "A conta do LOL e o shape 💪" },
   "TUTU":        { palpite: "Brasil 2 x 1 Marrocos",  valor: "O controle do PS5 🎮" },
-  "LETI DA MATA":{ palpite: "Brasil 3 x 1 Marrocos",  valor: "A mata inteira 🌳" },
-  "SOUSSA":      { palpite: "Brasil 1 x 5 Marrocos",  valor: "A fé no Brasil 🙏" },
-  "PUTERSON":    { palpite: "Brasil 99 x 0 Marrocos", valor: "A calculadora (que tá quebrada) 🧮" },
+  "LETI DA MATA":{ palpite: "Brasil 3 x 1 Marrocos",  valor: "A vaga de S.I na UNEB 🎓" },
+  "SOUSSA":      { palpite: "Brasil 1 x 5 Marrocos",  valor: "As notas de Modelagem 📐" },
+  "PUTERSON":    { palpite: "Brasil 0 x 1 Marrocos",  valor: "A vaga na SBC e o Codeforces 💻" },
 
   // 👇 Adicione novos palpites aqui, seguindo o mesmo formato:
   // "NomeDaFoto": { palpite: "Brasil 1 x 0 Marrocos", valor: "uma fortuna 💰" },
