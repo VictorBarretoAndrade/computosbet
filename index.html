@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMPUTOSBET777 · Palpites Brasil x Marrocos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bolinhas decorativas de fundo -->
+    <div class="fundo-bolas" aria-hidden="true"></div>
+
+    <header class="cabecalho">
+      <div class="marca">⚽ COMPUTOSBET777</div>
+      <h1 class="titulo">Palpites para Brasil <span>x</span> Marrocos</h1>
+      <p class="subtitulo">Quem vai acertar o resultado?</p>
+      <div class="placar-bandeiras">
+        <span class="bandeira">🇧🇷 Brasil</span>
+        <span class="versus">VS</span>
+        <span class="bandeira">Marrocos 🇲🇦</span>
+      </div>
+    </header>
+
+    <!-- Conferidor de resultado: digite o placar real e veja quem acertou -->
+    <section class="conferir">
+      <p class="conferir-titulo">🏁 Já saiu o resultado? Confira quem acertou!</p>
+      <div class="conferir-controles">
+        <span class="conferir-time">🇧🇷 Brasil</span>
+        <input id="gols-brasil" class="conferir-input" type="number" min="0" value="0" aria-label="Gols do Brasil" />
+        <span class="conferir-x">x</span>
+        <input id="gols-marrocos" class="conferir-input" type="number" min="0" value="0" aria-label="Gols de Marrocos" />
+        <span class="conferir-time">Marrocos 🇲🇦</span>
+        <button id="btn-conferir" class="botao botao-principal">Ver quem acertou</button>
+        <button id="btn-limpar" class="botao botao-secundario">Limpar</button>
+      </div>
+      <p id="conferir-resultado" class="conferir-mensagem" hidden></p>
+    </section>
+
+    <!-- Os cards dos participantes são inseridos aqui automaticamente -->
+    <main id="cards" class="grade-cards"></main>
+
+    <!-- Seção de patrocinadores (preenchida automaticamente) -->
+    <section id="secao-patrocinadores" class="patrocinadores" hidden>
+      <h2 class="patrocinadores-titulo">Patrocinadores</h2>
+      <div id="logos-patrocinadores" class="patrocinadores-logos"></div>
+    </section>
+
+    <footer class="rodape">
+      Feito para a galera · COMPUTOSBET777 — apostar é com a sorte 🍀
+    </footer>
+
+    <!--
+      ORDEM IMPORTA:
+      1) fotos.js   -> lista de imagens (gerada por "node gerar.js")
+      2) palpites.js-> os palpites editáveis
+      3) app.js     -> monta a página
+    -->
+    <script src="fotos.js"></script>
+    <script src="palpites.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
