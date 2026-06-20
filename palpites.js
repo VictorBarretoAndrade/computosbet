@@ -42,6 +42,7 @@ const PALPITES = {
   "VITIN":        { palpite: "Brasil 3 x 1 Haiti", valor: "Minha casa 🏠" },
   "MIMI":         { palpite: "Brasil 2 x 1 Haiti", valor: "Vai parar de ver reels por 3 meses 📵" },
   "TOM O CRUEL":  { palpite: "Brasil 3 x 0 Haiti", valor: "A conta do LOL e o Jeep 🚙" },
+  "ZEZÉ":         { palpite: "Brasil 2 x 1 Haiti", valor: "A casa de Villas 🏖️" },
 
   // 👇 NÃO foram citados: apostas a favor do HAITI 🇭🇹 (aparecem depois no site)
   "GORGIS":       { palpite: "Brasil 0 x 2 Haiti", valor: "A conta do DBD 🔪" },
