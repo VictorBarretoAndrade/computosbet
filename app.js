@@ -58,6 +58,15 @@ function acharDados(arquivo) {
   return { palpite: "Palpite a definir", valor: "" };
 }
 
+// Posição de exibição: quem está cadastrado em PALPITES aparece primeiro,
+// na MESMA ordem do arquivo palpites.js. Quem não está vai para o fim.
+function ordemPalpite(arquivo) {
+  const chaveFoto = normalizar(semExtensao(arquivo));
+  const chaves = Object.keys(PALPITES).map(normalizar);
+  const idx = chaves.indexOf(chaveFoto);
+  return idx === -1 ? Number.MAX_SAFE_INTEGER : idx;
+}
+
 // Extrai os gols do texto do palpite. Ex.: "Brasil 2 x 1 Marrocos" -> [2, 1]
 function extrairPlacar(palpite) {
   const m = palpite.match(/(\d+)\s*[xX]\s*(\d+)/);
@@ -199,7 +208,8 @@ function iniciar() {
     return;
   }
 
-  const participantes = FOTOS.filter((f) => !ehPatrocinador(f));
+  const participantes = FOTOS.filter((f) => !ehPatrocinador(f))
+    .sort((a, b) => ordemPalpite(a) - ordemPalpite(b));
   const patrocinadores = FOTOS.filter((f) => ehPatrocinador(f));
 
   participantes.forEach((arquivo) => container.appendChild(criarCard(arquivo)));

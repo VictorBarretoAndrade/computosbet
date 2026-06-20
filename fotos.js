@@ -1,13 +1,22 @@
-﻿/* ARQUIVO GERADO AUTOMATICAMENTE - NAO edite a mao. */
+/* ARQUIVO GERADO AUTOMATICAMENTE - NAO edite a mao. */
 const FOTOS = [
+    "ANA.jpeg",
     "Bet365_Logo.svg",
     "brazino777gaming_logo.jfif",
+    "CARLOS.jpeg",
     "CEZIMBRA.png",
+    "CLARA.jpeg",
     "GORGIS.png",
     "GRADIN.png",
     "HECTOR.png",
+    "HENEL.jpeg",
+    "Hildete.jpeg",
+    "JANDIRA.jpeg",
     "JONSO.png",
+    "JULANA.png",
     "LETI DA MATA.png",
+    "LIMA.png",
+    "MARI.jpeg",
     "MIMI.png",
     "PEPU.png",
     "PUTERSON.png",
@@ -16,6 +25,6 @@ const FOTOS = [
     "TIGRE.avif",
     "TOM O CRUEL.png",
     "TUTU.png",
+    "VICTOR.png",
     "VITIN.jpeg"
 ];
-
