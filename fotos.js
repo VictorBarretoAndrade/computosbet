@@ -27,5 +27,5 @@ const FOTOS = [
     "TUTU.png",
     "VICTOR.png",
     "VITIN.jpeg",
-    "Zezé.jpeg"
+    "ZEZE.jpeg"
 ];
